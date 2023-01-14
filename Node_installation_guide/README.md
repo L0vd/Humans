@@ -3,9 +3,9 @@
 <a href="https://l0vd.com/" target="_blank">Visit our website <img src="https://raw.githubusercontent.com/L0vd/screenshots/main/L0vd.png" width="30"/></a>
 </p>
 
-[Node setup](#node_setup)
-[State Sync](#state_sync)
-[Starting a validator](#starting_validator)
+[Node setup](#node_setup) <br />
+[State Sync](#state_sync) <br />
+[Starting a validator](#starting_validator) <br />
 [Useful commands](#useful_commands)
 
 
