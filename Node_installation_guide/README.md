@@ -192,7 +192,7 @@ humansd tx bank send <FROM_WALLET_ADDRESS> <TO_WALLET_ADDRESS> <AMOUNT>uheart --
 
 ### Delegate tokens to validator
 ```
-humansd tx staking delegate <moniker> <amount>uheart --from $HUMANS_WALLET --chain-id $HUMANS_CHAIN_ID --gas=auto
+humansd tx staking delegate <MONIKER> <AMOUNT>uheart --from $HUMANS_WALLET --chain-id $HUMANS_CHAIN_ID --gas auto
 ```
 
 ### Vote for proposal
