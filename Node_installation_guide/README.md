@@ -3,6 +3,9 @@
 <a href="https://l0vd.com/" target="_blank">Visit our website <img src="https://raw.githubusercontent.com/L0vd/screenshots/main/L0vd.png" width="30"/></a>
 </p>
 
+
+
+#Table of contents
 [Node setup](#node_setup) <br />
 [State Sync](#state_sync) <br />
 [Starting a validator](#starting_validator) <br />
