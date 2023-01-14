@@ -133,20 +133,20 @@ sudo systemctl restart humansd && sudo journalctl -u humansd -f -o cat
 
 ## Starting a validator
 
-### Add a new key
+### 1. Add a new key
 ```
 humansd keys add $HUMANS_WALLET
 ```
 #### (OR)
 
-### Recover your key
+### 1. Recover your key
 ```
 humansd keys add $HUMANS_WALLET --recover
 ```
 
-### Request tokens from [faucet](https://discord.com/channels/999302051538411671/1039540296540770385)
+### 2. Request tokens from [faucet](https://discord.com/channels/999302051538411671/1039540296540770385)
 
-### Create validator
+### 3. Create validator
 ```
 humansd tx staking create-validator \
 --amount 9990000uheart \
@@ -173,6 +173,11 @@ humansd status | jq
 ### Check logs
 ```
 sudo journalctl -u humansd -f
+```
+
+### Check wallets
+```
+humansd keys list
 ```
 
 ### Check balance
