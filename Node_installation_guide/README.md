@@ -37,7 +37,7 @@ mv humansd root/go/bin/humansd
 
 
 ## Setting up vars
-You should replace values in <>
+You should replace values in <> <br />
 <YOUR_MONIKER> Here you should put name of your moniker (validator) that will be visible in explorer
 <YOUR_WALLET> Here you shoud put the name of your wallet
 
