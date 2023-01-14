@@ -3,6 +3,14 @@
 <a href="https://l0vd.com/" target="_blank">Visit our website <img src="https://raw.githubusercontent.com/L0vd/screenshots/main/L0vd.png" width="30"/></a>
 </p>
 
+[Node setup](#node_setup)
+[State Sync](#state_sync)
+[Starting a validator](#starting_validator)
+[Useful commands](#useful_commands)
+
+
+
+<a name="node_setup"></a>
 # Manual node setup
 If you want to setup Humans fullnode manually follow the steps below
 
@@ -128,9 +136,10 @@ humansd tendermint unsafe-reset-all --home $HOME/.humans --keep-addr-book
 sudo systemctl restart humansd && sudo journalctl -u humansd -f -o cat
 ```
 
+<a name="state_sync"></a>
 ## (OPTIONAL) Use State Sync
 
-
+<a name="starting_validator"></a>
 ## Starting a validator
 
 ### 1. Add a new key
@@ -162,7 +171,7 @@ humansd tx staking create-validator \
 --from $HUMANS_WALLET \
 --yes
 ```
-
+<a name="useful_commands"></a>
 ## Useful commands
 
 ### Check status
