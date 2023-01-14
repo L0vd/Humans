@@ -142,7 +142,7 @@ sudo systemctl restart humansd && sudo journalctl -u humansd -f -o cat
 <a name="state_sync"></a>
 ## (OPTIONAL) Use State Sync
 
-[StateSync](https://github.com/L0vd/Humans/tree/main/StateSync)
+### [State Sync guide](https://github.com/L0vd/Humans/tree/main/StateSync)
 
 
 <a name="starting_validator"></a>
