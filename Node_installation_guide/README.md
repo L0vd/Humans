@@ -5,7 +5,7 @@
 
 
 
-#Table of contents
+# Table of contents <br />
 [Node setup](#node_setup) <br />
 [State Sync](#state_sync) <br />
 [Starting a validator](#starting_validator) <br />
