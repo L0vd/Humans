@@ -23,7 +23,7 @@ https://github.com/L0vd/Humans/tree/main/StateSync
 https://github.com/L0vd/Humans/tree/main/Humans_wallet_bot
 
 ## :heart: Public RPC endpoint
-http://135.181.178.53:26667/
+https://humans-testnet.rpc.l0vd.com
 
 ## :heart: Public API
-http://135.181.178.53:23317/
+https://humans-testnet.api.l0vd.com
