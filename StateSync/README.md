@@ -1,15 +1,15 @@
 # Humans State Sync
 
 ## Info
-#### Public RPC endpoint: http://135.181.178.53:26667/
-#### Public API: http://135.181.178.53:23317/
+#### Public RPC endpoint: https://humans-testnet.rpc.l0vd.com
+#### Public API: https://humans-testnet.api.l0vd.com
 
 ## Guide to sync your node using State Sync:
 
 ### Copy the entire command
 ```
 sudo systemctl stop humansd
-SNAP_RPC="http://135.181.178.53:26667"; \
+SNAP_RPC="https://humans-testnet.rpc.l0vd.com"; \
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash); \
